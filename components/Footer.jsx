@@ -30,7 +30,12 @@ const Footer = ({ isDarkMode }) => {
             alt=""
             className="w-6"
           />
-          panayappan.tech@gmail.com
+          <a
+            href="mailto:panayappan.tech@gmail.com"
+            className="hover:underline"
+          >
+            panayappan.tech@gmail.com
+          </a>
         </div>
       </div>
 
