@@ -62,7 +62,7 @@ const About = ({ isDarkMode }) => {
         >
           <p className="mb-10 max-w-2xl font-Ovo">
             I’m an experienced Full Stack and Mobile Application Developer with
-            4 years of expertise in building scalable, efficient solutions. I’ve
+            5 years of expertise in building scalable, efficient solutions. I’ve
             worked with startups and leading enterprises across AI healthcare
             and industrial software sectors, contributing to their digital
             growth. My core skills include the MERN stack (MongoDB, Express,

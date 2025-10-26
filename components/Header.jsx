@@ -41,7 +41,7 @@ const Header = () => {
         viewport={{ once: true }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        I am a Senior Software Engineer from India with 4 years of experience in
+        I am a Senior Software Engineer from India with 5 years of experience in
         developing full stack web and mobile applications using the MERN stack,
         Next.js, and React Native.
       </motion.p>
@@ -55,7 +55,7 @@ const Header = () => {
           href="#contact"
           className="px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
-          contact me{" "}
+          Contact Me{" "}
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </motion.a>
 
@@ -64,11 +64,13 @@ const Header = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
           viewport={{ once: true }}
-          href="/Panayappan_Resume.pdf"
+          href="https://www.linkedin.com/in/panayappanl/"
+          target="_blank"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
-          my resume <Image src={assets.download_icon} alt="" className="w-4" />
+          Connect on LinkedIn{" "}
+          <Image src={assets.right_arrow} alt="" className="w-4" />
         </motion.a>
       </div>
     </div>
